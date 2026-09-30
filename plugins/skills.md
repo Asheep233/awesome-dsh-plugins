@@ -19,6 +19,9 @@
 - [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) — 帮 DSH 搜索、安装并验证 GitHub 插件的 Skill ⭐176 · `dsh plugin add github:Nagi-ovo/dsh-find-plugins`
 - [forkprobe](https://github.com/Jayden-X-L/forkprobe) — 同一任务对比多个 skill 并选出最优 ⭐73 · `dsh plugin add github:Jayden-X-L/forkprobe`
 
+- [dsh-amphoreus](https://github.com/xi-kari/dsh-amphoreus) — 把 δ-me13（翁法罗斯）13 张角色技能卡变成席位工作区：逐席主题与壁纸、首轮注入技能卡、对话表情、每席记忆与预设、Alt+数字切席、派发与移交总览画布；技能套件从本地目录读取，不随插件打包 · `dsh plugin add dsh-amphoreus`
+- [skills-management](https://github.com/weibaohui/skills-management) — 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理 · `dsh plugin add @weibaohui/skills-management`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🛠️ 工具类 Tools](tools.md) · [返回目录](../README.md) · [下一类: 🔌 MCP 接入](mcp.md) →

@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**A curated directory of 339+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
+**A curated directory of 353+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
 
-![plugins](https://img.shields.io/badge/plugins-339-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-353-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **English** · [中文版](README.zh.md)
 
@@ -66,7 +66,7 @@ Top community plugins by GitHub stars:
 
 | Metric | Value |
 |---|---|
-| Plugins listed | **339** entries (339 unique) |
+| Plugins listed | **353** entries (353 unique) |
 | Categories | **14** top-level |
 | Ecosystem reference | `dsh-plugin` topic ~3300+ repos · compat radar 286+ |
 
@@ -77,18 +77,18 @@ Top community plugins by GitHub stars:
 | # | Category | Plugins | Description |
 |---|---|---|---|
 | 1 | [🛠️ Tools](plugins/tools.md) | 35 | deterministic tools, git, test runners, safe delete |
-| 2 | [🧩 Skills](plugins/skills.md) | 16 | engineering discipline, skill migration, book-to-skill |
+| 2 | [🧩 Skills](plugins/skills.md) | 18 | engineering discipline, skill migration, book-to-skill |
 | 3 | [🔌 MCP](plugins/mcp.md) | 8 | MCP server management, webfetch, vision MCP |
-| 4 | [🎨 UI / Skins / Themes](plugins/ui-themes.md) | 47 | skins, themes, generative UI, input enhancements |
+| 4 | [🎨 UI / Skins / Themes](plugins/ui-themes.md) | 50 | skins, themes, generative UI, input enhancements |
 | 5 | [🖥️ Desktop / TUI / Mobile](plugins/desktop-tui-mobile.md) | 23 | desktop shells, terminal TUI, mobile, companions |
-| 6 | [🤖 Agent Orchestration](plugins/agent-orchestration.md) | 14 | agent teams, plan/execute, A2A, cross-session messaging |
-| 7 | [🧠 Context / Memory](plugins/context-memory.md) | 30 | long-term memory, context compression/audit, session control |
+| 6 | [🤖 Agent Orchestration](plugins/agent-orchestration.md) | 15 | agent teams, plan/execute, A2A, cross-session messaging |
+| 7 | [🧠 Context / Memory](plugins/context-memory.md) | 33 | long-term memory, context compression/audit, session control |
 | 8 | [👁️ Multimodal / Vision](plugins/multimodal.md) | 18 | image Q&A, OCR, screenshots, computer use |
-| 9 | [🔁 Workflow / Automation](plugins/workflow-automation.md) | 26 | deep research, cron, condition wakeup, review loops |
+| 9 | [🔁 Workflow / Automation](plugins/workflow-automation.md) | 28 | deep research, cron, condition wakeup, review loops |
 | 10 | [📡 Notifications / Channels](plugins/notifications-channels.md) | 20 | Telegram/WeChat/Feishu bots, SSH, desktop notify |
 | 11 | [🌐 Browser / Search](plugins/browser-search.md) | 16 | browser control, scraping, search providers |
-| 12 | [🏗️ Infra / Plugin Mgmt](plugins/infrastructure-dev.md) | 40 | plugin managers, health checks, sandboxes, telemetry |
-| 13 | [🎮 Fun / Other](plugins/fun-other.md) | 36 | games, pets, stickers, learning, design |
+| 12 | [🏗️ Infra / Plugin Mgmt](plugins/infrastructure-dev.md) | 42 | plugin managers, health checks, sandboxes, telemetry |
+| 13 | [🎮 Fun / Other](plugins/fun-other.md) | 37 | games, pets, stickers, learning, design |
 | 14 | [🏛️ Official & Meta](plugins/official-meta.md) | 10 | core repo, awesome lists, compat radar, community hub |
 
 <!-- catindex:end -->
@@ -143,7 +143,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🧩 Skills · 16</summary>
+<summary>🧩 Skills · 18</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -163,6 +163,8 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) | 181 | Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router. | `dsh plugin add github:dhicoc/dsh-reverse-skill` |
 | [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | 176 | Skill that searches, installs, and verifies GitHub plugins for DSH | `dsh plugin add github:Nagi-ovo/dsh-find-plugins` |
 | [forkprobe](https://github.com/Jayden-X-L/forkprobe) | 73 | Compare multiple skills on the same task and pick the winner. | `dsh plugin add github:Jayden-X-L/forkprobe` |
+| [dsh-amphoreus](https://github.com/xi-kari/dsh-amphoreus) |  | Turns the 13 δ-me13 character skill cards into seat workspaces: per-seat theme and wallpaper, first-turn skill-card injection, chat emotes, per-seat memory and presets, Alt+number seat switching, and a dispatch/handover overview canvas; skill suites load from a local directory. | `dsh plugin add dsh-amphoreus` |
+| [skills-management](https://github.com/weibaohui/skills-management) |  | Skill marketplace and manager: manage skills from all local coding agents (10+ executors, incl. Claude Code and Codex) in one page and import them into the DSH skill library; built-in market of 6600+ skills, per-skill token-overhead stats, and model visibility control. | `dsh plugin add @weibaohui/skills-management` |
 
 </details>
 
@@ -183,7 +185,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🎨 UI / Skins / Themes · 47</summary>
+<summary>🎨 UI / Skins / Themes · 50</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -234,6 +236,9 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-approval-hotkeys](https://github.com/SiriLee/dsh-approval-hotkeys) |  | Keyboard shortcuts for the approval panel: Enter approves once, Esc rejects, Esc pauses — keyboard-driven review. | `dsh plugin add dsh-approval-hotkeys` |
 | [dsh-billing-badge](https://github.com/devacc8/dsh-billing-badge) |  | A pill in the composer stats row after the native cache-hit reading: peak/off-peak dot with switch countdown; click for a panel with the balance split into total / granted / topped up and API availability, with the currency taken from the API response. | `dsh plugin --profile web add dsh-billing-badge` |
 | [dsh-round-rightclick](https://github.com/hmr-BH/dsh-round-rightclick) |  | Radial right-click menu on conversation turns in the DSH Web GUI: fork a new session from a chosen turn, interrupt a running generation, copy the working-directory path, copy the session ID, reveal the working directory in the file manager, and export the session log as a ZIP. | `dsh plugin add dsh-round-rightclick` |
+| [dsh-worktree](https://github.com/alpacachen/dsh-worktree) |  | Minimal Git worktree manager: one button and one dialog create a task-branch worktree and open it directly as a DSH workspace. | `dsh plugin --profile web add @alpacachen/dsh-simple-worktree` |
+| [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) |  | Settings-window customisation: resize the native settings window (fullscreen / presets / custom size) and set its background opacity and background (theme / colour / image), adjustable on the fly from a floating ball. | `dsh plugin add @weibaohui/dsh-settings-ui` |
+| [dsh-park-notes](https://github.com/kevin-zx/dsh-park-notes) |  | Jot down topics to come back to while waiting for the model: a persistent "talk later" note strip above the composer, zero interruption, saved with the session and insertable into the draft with one click. | `dsh plugin --profile web add github:kevin-zx/dsh-park-notes` |
 
 </details>
 
@@ -269,7 +274,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🤖 Agent Orchestration · 14</summary>
+<summary>🤖 Agent Orchestration · 15</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -287,11 +292,12 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [lunheng-article-pipeline-dsh](https://github.com/zuoyunlai/lunheng-article-pipeline-dsh) |  | Lunheng: a deep long-form writing pipeline with a controller and 9 independent roles (literature / data / case retrieval, analysis, writing, critique, audit, final check, peer review) across 6 stages, with 4 human checkpoints, triangulation, 23 mechanical final checks and G0-G14 independent audits. | `dsh plugin add lunheng-article-pipeline` |
 | [dsh-product-subagent-console](https://github.com/Jokasa7/dsh-product-subagent-console) |  | Conversation-level multi-agent workbench: edit the task plan, watch the real sub-session tree, compare the plan against actual runs, and generate an evidence-based recovery preview. |  |
 | [dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) |  | Smart session titles for DSH: after each conversation turn an independent auxiliary LLM call summarizes the full user+assistant transcript into a title that follows the session's real topic instead of echoing the first message; the first message is titled instantly, failed built-in titles auto-retry on later turns, manual renames are never overwritten, and subagent/fork sessions are skipped. | `dsh plugin add @weibaohui/dsh-smart-title` |
+| [experts-management](https://github.com/weibaohui/experts-management) |  | Expert manager: manage ntd-format experts and expert teams (plugin.json + Agent MD + skill sets), browse and install from a built-in market of 50+ experts, and run tasks in an expert persona via `/expert-<name>` without consuming model directory tokens. | `dsh plugin add @weibaohui/experts-management` |
 
 </details>
 
 <details>
-<summary>🧠 Context / Memory · 30</summary>
+<summary>🧠 Context / Memory · 33</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -325,6 +331,9 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-squeeze-command](https://github.com/hardes11/dsh-squeeze-command) |  | Manual budget-targeted context compression: the conversation model picks the ranges to summarize and a cheap flash-tier model route writes the checkpoint summaries; install with `dsh plugin add dsh-squeeze-command`. | `dsh plugin add dsh-squeeze-command` |
 | [dsh-kb](https://github.com/weibaohui/dsh-kb) |  | Team knowledge base for offline knowledge sharing (FDE box scenario): browse, full-text search and refinement entry points; raw material is queued automatically and distilled into wiki pages by a serial bot session (Karpathy LLM Wiki pattern: immutable raw, two-step refinement, log stream, monthly lint). | `dsh plugin add @weibaohui/dsh-kb` |
 | [dsh-memento](https://github.com/PerryLink/dsh-memento) |  | Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection; every write passes the approval gate and stays reconstructable from the session log. | `dsh plugin add dsh-memento` |
+| [hermes-loop](https://github.com/weibaohui/hermes-loop) |  | Automatic retrospective: when a conversation wraps up, valuable lessons are distilled into reusable skills in the skill library, with an approval mode and library governance (archive/restore, never hard delete). | `dsh plugin add @weibaohui/hermes-loop` |
+| [dsh-session-manager](https://github.com/SunshineR04/dsh-session-manager) |  | Archived-session management: list, restore or permanently delete archived sessions from the settings page (physical delete, no backup layer), with a red delete item in the session menu; an already-open session can be deleted immediately (tombstoned, cleaned up after restart). | `dsh plugin add github:SunshineR04/dsh-session-manager` |
+| [context-razor](https://github.com/weibaohui/context-razor) |  | Context trimmer: lists the current session's context entries with role, preview and ≈token estimate (cl100k), highlights over-threshold items, and removes selected entries exactly without LLM summarization. | `dsh plugin add @weibaohui/context-razor` |
 
 </details>
 
@@ -355,7 +364,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🔁 Workflow / Automation · 26</summary>
+<summary>🔁 Workflow / Automation · 28</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -385,6 +394,8 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-process](https://github.com/weibaohui/dsh-process) |  | Process management: brings ntd-style processes (multi-stage, multi-step agent workflow templates) into the dsh web UI — browse, edit, validate, import/export and AI-generate processes; the built-in library is read-only while the personal library is writable with live file sync, and agents read the library through process_* tools and advance work stage by stage. | `dsh plugin add @weibaohui/dsh-process` |
 | [dsh-flow](https://github.com/weibaohui/dsh-flow) |  | Execution flow chart: renders the current session execution as a vertical node flow (turns, user, assistant, tools, approvals, retries, compaction), appended in real time over SSE with auto-follow scrolling. | `dsh plugin add @weibaohui/dsh-flow` |
 | [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) |  | Second-model review on the approval chain: an independent model reviews each pending action before you approve it. | `dsh plugin add dsh-auto-review` |
+| [dsh-continue](https://github.com/weibaohui/dsh-continue) |  | Auto-continue: after an interrupted agent session it picks up again, routing by failure type (rate limit / quota / auth / context overflow / orphaned crash) to backoff retry, a model switch, context compaction before continuing, or a stop-loss notice; the rules are editable in the UI. | `dsh plugin add @weibaohui/dsh-continue` |
+| [dsh-tasks](https://github.com/weibaohui/dsh-tasks) |  | Scheduled tasks: run a prompt on cron schedules, each run opens a new agent session to do the work, with workspace binding, manual run, session auto-naming, and a fullscreen task management page. | `dsh plugin add @weibaohui/dsh-tasks` |
 
 </details>
 
@@ -441,7 +452,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🏗️ Infra / Plugin Mgmt · 40</summary>
+<summary>🏗️ Infra / Plugin Mgmt · 42</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -485,11 +496,13 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) |  | FDE toolbox bundle: installing this one plugin pulls in a curated set of common dsh plugins (git server, WebDAV mount, knowledge base, scheduled tasks, auto-resume, UI tweaks, auto-retrospection, file manager, smart titles, task board, plugin market, context trimmer, IM bridge, sidebar enhancements), with a panel showing install status and one-click gap-filling. | `dsh plugin add @weibaohui/dsh-fde-tools` |
 | [dsh-sync](https://github.com/weibaohui/dsh-sync) |  | Multi-machine sync: keeps multiple dsh replicas consistent through one private GitCode repository — skills, sessions, settings and plugin manifests each with an independent switch; changes go through branch, PR and merge, remote-only additions are pulled back before every push so nothing is deleted, and an AI smart-align step semantically merges files both sides changed (plus one-click conflict resolution); private repos enforced, pull never overwrites local edits. | `dsh plugin add @weibaohui/dsh-sync` |
 | [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) |  | Declarative permission rules for DSH tool calls: state what is always allowed, always denied, or must always be asked, in one rule file. | `dsh plugin add dsh-permission-rules` |
+| [user-management](https://github.com/weibaohui/user-management) |  | Login gate for the dsh web UI: unauthenticated visitors get a login/register page and the first registrant becomes admin; includes user and role management plus login and access audit logs. | `dsh plugin add @weibaohui/user-management` |
+| [dsh-privacy-guard](https://github.com/amwangfan/dsh-privacy-guard) |  | Privacy protection: credential masking and streaming restore at the local gateway, an exemption allowlist, encryption-key management, a credential-protected model entry, plus a built-in Qwen2.5-0.5B local model probe, a leak-detection sandbox and deployment controls. | `dsh plugin add github:amwangfan/dsh-privacy-guard` |
 
 </details>
 
 <details>
-<summary>🎮 Fun / Other · 36</summary>
+<summary>🎮 Fun / Other · 37</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -529,6 +542,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) |  | Fireworks celebration engine: floats fireworks above the chat window while the agent codes; welcome, per-turn, tool-spark, milestone, finish and failure events each draw from their own card group with random variants, and token usage decides firework size and splendour. | `dsh plugin add @weibaohui/dsh-fireworks` |
 | [dsh-matrix](https://github.com/weibaohui/dsh-matrix) |  | Matrix digital rain: drapes the chat window in the classic green character rain — cascading columns with incandescent white heads and green tails, streaming the tokens the agent is generating into the rain in real time; opacity, speed, density, font size and colors are all adjustable, and rain intensity follows agent activity. | `dsh plugin add @weibaohui/dsh-matrix` |
 | [dsh-kite](https://github.com/weibaohui/dsh-kite) |  | Kite-flying engine: while the agent codes, an animated kite drifts and sways in the wind on screen, tethered to the bottom edge of the window — the busier the agent, the denser the events and the higher it flies; ships a Weifang-style framework card deck (sand-swallow, goldfish, butterfly, bagua, dragon-head and more, hard-wing / soft-wing / flat / dimensional frames), with shape x pattern x colors all swappable data configs, and supports pasting user images onto the kite face with real-time affine transforms as the kite banks. | `dsh plugin add @weibaohui/dsh-kite` |
+| [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) |  | Genki whale-girl desktop pet: head-pat bonding, work-posture linkage, 90+ illustrations, 39 achievements and its own settings panel; desktop (DSH 0.2.0-rc.2) and legacy Web builds. | `dsh plugin add github:Sutera-Diffusus/dsh-whale-musume` |
 
 </details>
 

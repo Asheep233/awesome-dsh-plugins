@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 339 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 353 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-339-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-353-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -66,7 +66,7 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **339** 条（去重后 339 个插件） |
+| 收录插件条目 | **353** 条（去重后 353 个插件） |
 | 分类 | **14** 个一级分类 |
 | 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 兼容雷达追踪 286+ |
 
@@ -77,18 +77,18 @@
 | # | 分类 | 插件数 | 说明 |
 |---|---|---|---|
 | 1 | [🛠️ 工具类 Tools](plugins/tools.md) | 35 | 确定性工具集、git、测试、安全删除等 |
-| 2 | [🧩 技能类 Skills](plugins/skills.md) | 16 | 工程纪律、技能迁移、书转技能等 |
+| 2 | [🧩 技能类 Skills](plugins/skills.md) | 18 | 工程纪律、技能迁移、书转技能等 |
 | 3 | [🔌 MCP 接入](plugins/mcp.md) | 8 | MCP 服务器管理、webfetch、视觉 MCP 等 |
-| 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 47 | 皮肤、主题、生成式 UI、输入增强等 |
+| 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 50 | 皮肤、主题、生成式 UI、输入增强等 |
 | 5 | [🖥️ 桌面端 / TUI / 移动端](plugins/desktop-tui-mobile.md) | 23 | 桌面壳、终端 TUI、移动端、桌宠等 |
-| 6 | [🤖 Agent 编排 / 多 Agent](plugins/agent-orchestration.md) | 14 | 多 Agent 团队、工作流、跨会话消息等 |
-| 7 | [🧠 上下文 / 记忆](plugins/context-memory.md) | 30 | 长期记忆、上下文压缩/审计、蒸馏等 |
+| 6 | [🤖 Agent 编排 / 多 Agent](plugins/agent-orchestration.md) | 15 | 多 Agent 团队、工作流、跨会话消息等 |
+| 7 | [🧠 上下文 / 记忆](plugins/context-memory.md) | 33 | 长期记忆、上下文压缩/审计、蒸馏等 |
 | 8 | [👁️ 多模态 / 视觉](plugins/multimodal.md) | 18 | 视觉工具箱、OCR、截图对比、电脑控制等 |
-| 9 | [🔁 工作流 / 自动化](plugins/workflow-automation.md) | 26 | 深度研究、定时任务、条件唤醒等 |
+| 9 | [🔁 工作流 / 自动化](plugins/workflow-automation.md) | 28 | 深度研究、定时任务、条件唤醒等 |
 | 10 | [📡 通知 / 渠道 / 远程](plugins/notifications-channels.md) | 20 | Telegram/微信/飞书机器人、SSH 等 |
 | 11 | [🌐 浏览器 / 搜索](plugins/browser-search.md) | 16 | 浏览器操控、网页抓取、搜索提供方等 |
-| 12 | [🏗️ 基础设施 / 插件管理 / 开发工具](plugins/infrastructure-dev.md) | 40 | 插件管理器、健康检查、沙箱、遥测等 |
-| 13 | [🎮 娱乐 / 其他](plugins/fun-other.md) | 36 | 小游戏、桌宠、股票、教学、设计等 |
+| 12 | [🏗️ 基础设施 / 插件管理 / 开发工具](plugins/infrastructure-dev.md) | 42 | 插件管理器、健康检查、沙箱、遥测等 |
+| 13 | [🎮 娱乐 / 其他](plugins/fun-other.md) | 37 | 小游戏、桌宠、股票、教学、设计等 |
 | 14 | [🏛️ 官方核心与元项目](plugins/official-meta.md) | 10 | 核心仓库、awesome 列表、兼容雷达、hub |
 
 <!-- catindex:end -->
@@ -143,7 +143,7 @@
 </details>
 
 <details>
-<summary>🧩 技能类 Skills · 16</summary>
+<summary>🧩 技能类 Skills · 18</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -163,6 +163,8 @@
 | [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) | 181 | 逆向工程、授权渗透测试与安全研究技能路由包（85 个 SKILL.md，仅限授权测试） | `dsh plugin add github:dhicoc/dsh-reverse-skill` |
 | [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | 176 | 帮 DSH 搜索、安装并验证 GitHub 插件的 Skill | `dsh plugin add github:Nagi-ovo/dsh-find-plugins` |
 | [forkprobe](https://github.com/Jayden-X-L/forkprobe) | 73 | 同一任务对比多个 skill 并选出最优 | `dsh plugin add github:Jayden-X-L/forkprobe` |
+| [dsh-amphoreus](https://github.com/xi-kari/dsh-amphoreus) |  | 把 δ-me13（翁法罗斯）13 张角色技能卡变成席位工作区：逐席主题与壁纸、首轮注入技能卡、对话表情、每席记忆与预设、Alt+数字切席、派发与移交总览画布；技能套件从本地目录读取，不随插件打包 | `dsh plugin add dsh-amphoreus` |
+| [skills-management](https://github.com/weibaohui/skills-management) |  | 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理 | `dsh plugin add @weibaohui/skills-management` |
 
 </details>
 
@@ -183,7 +185,7 @@
 </details>
 
 <details>
-<summary>🎨 Web UI / 皮肤 / 主题 · 47</summary>
+<summary>🎨 Web UI / 皮肤 / 主题 · 50</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -234,6 +236,9 @@
 | [dsh-approval-hotkeys](https://github.com/SiriLee/dsh-approval-hotkeys) |  | 审批面板键盘快捷键：Enter 批准一次、Esc 拒绝、Esc 暂停键盘驱动审阅 | `dsh plugin add dsh-approval-hotkeys` |
 | [dsh-billing-badge](https://github.com/devacc8/dsh-billing-badge) |  | 输入框统计行里、原生 Cache hit 之后的小胶囊：高峰/非高峰圆点与切换倒计时，点击展开余额面板（总额、赠送、充值的拆分与 API 可用性），货币取自接口返回值 | `dsh plugin --profile web add dsh-billing-badge` |
 | [dsh-round-rightclick](https://github.com/hmr-BH/dsh-round-rightclick) |  | 在 DSH Web GUI 的对话轮次上提供径向右键菜单：从指定轮次分叉新会话、中断正在运行的生成、复制工作目录路径、复制会话 ID、在文件管理器中打开工作目录、导出会话日志为 ZIP | `dsh plugin add dsh-round-rightclick` |
+| [dsh-worktree](https://github.com/alpacachen/dsh-worktree) |  | 极简 Git worktree 管理：一个按钮和一个对话框创建任务分支 worktree，并直接打开为 DSH Workspace | `dsh plugin --profile web add @alpacachen/dsh-simple-worktree` |
+| [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) |  | 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调 | `dsh plugin add @weibaohui/dsh-settings-ui` |
+| [dsh-park-notes](https://github.com/kevin-zx/dsh-park-notes) |  | 等待 AI 输出时随手记录想聊的话题：输入框上方常驻「稍后说」便签条，零打断、随会话保存，稍后一键带入草稿 | `dsh plugin --profile web add github:kevin-zx/dsh-park-notes` |
 
 </details>
 
@@ -269,7 +274,7 @@
 </details>
 
 <details>
-<summary>🤖 Agent 编排 / 多 Agent · 14</summary>
+<summary>🤖 Agent 编排 / 多 Agent · 15</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -287,11 +292,12 @@
 | [lunheng-article-pipeline-dsh](https://github.com/zuoyunlai/lunheng-article-pipeline-dsh) |  | 论衡：主控调度 + 9 个独立角色（文献/数据/案例检索、分析、写作、批判、审计、终检、同行评审）的深度长文写作流水线，跨 6 阶段，含 4 个人在环节点、三角验证、M 门 23 项机械终检、G0-G14 独立审计与审稿评分/期刊匹配 | `dsh plugin add lunheng-article-pipeline` |
 | [dsh-product-subagent-console](https://github.com/Jokasa7/dsh-product-subagent-console) |  | DSH 对话级多 Agent 工作台：可编辑任务方案、观察真实子会话树、对照计划与实际运行，并生成基于证据的恢复预览 · [v0.9.0 安装说明](https://github.com/Jokasa7/dsh-product-subagent-console#install) |  |
 | [dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) |  | 会话智能标题：每轮对话结束后用一次独立的辅助 LLM 调用对「用户消息+助手回答」完整转写做总结，标题跟随会话真实主题而不是复述第一句话；首条消息即时生成标题、内置标题失败在后续轮次自动重试、用户手动改名绝不被覆盖、自动跳过子代理与 fork 会话 | `dsh plugin add @weibaohui/dsh-smart-title` |
+| [experts-management](https://github.com/weibaohui/experts-management) |  | 专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），内置 50+ 专家市场，`/expert-名称` 以专家身份执行任务，不占模型目录 token | `dsh plugin add @weibaohui/experts-management` |
 
 </details>
 
 <details>
-<summary>🧠 上下文 / 记忆 · 30</summary>
+<summary>🧠 上下文 / 记忆 · 33</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -325,6 +331,9 @@
 | [dsh-squeeze-command](https://github.com/hardes11/dsh-squeeze-command) |  | 手动、面向预算的上下文压缩：对话模型圈定要总结的范围，廉价 flash 级路由生成检查点摘要 | `dsh plugin add dsh-squeeze-command` |
 | [dsh-kb](https://github.com/weibaohui/dsh-kb) |  | 团队知识库：离线知识共享（FDE 盒子场景），浏览/全文检索/加工入口；raw 入料自动入队、bot 会话串行蒸馏成文（Karpathy LLM Wiki 模式：raw 不可变 / 两步加工 / log 流水 / 月度 lint） | `dsh plugin add @weibaohui/dsh-kb` |
 | [dsh-memento](https://github.com/PerryLink/dsh-memento) |  | 有界、分层、审批门、可审计的跨会话记忆：`ctx.memory` 服务 + 零依赖 SQLite + memory 工具 + 冻结快照注入 | `dsh plugin add dsh-memento` |
+| [hermes-loop](https://github.com/weibaohui/hermes-loop) |  | 自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持审批模式与技能库治理（归档/恢复，永不直接删除） | `dsh plugin add @weibaohui/hermes-loop` |
+| [dsh-session-manager](https://github.com/SunshineR04/dsh-session-manager) |  | 已归档会话管理：设置页列出/恢复/彻底删除（直接物理删除，无备份层），会话菜单红色删除项；已打开的会话也能立即删除（墓碑隐藏，重启后自动清理） | `dsh plugin add github:SunshineR04/dsh-session-manager` |
+| [context-razor](https://github.com/weibaohui/context-razor) |  | 上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然 | `dsh plugin add @weibaohui/context-razor` |
 
 </details>
 
@@ -355,7 +364,7 @@
 </details>
 
 <details>
-<summary>🔁 工作流 / 自动化 · 26</summary>
+<summary>🔁 工作流 / 自动化 · 28</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -385,6 +394,8 @@
 | [dsh-process](https://github.com/weibaohui/dsh-process) |  | 工艺管理：把 ntd 的「工艺」（多阶段·多环节 agent 工作流模板）接进 dsh web——浏览/编辑/校验/导入导出/AI 生成工艺，内置库只读、我的库可写，文件改动实时同步；agent 可通过 process_* 工具读工艺库、按工艺分阶段推进 | `dsh plugin add @weibaohui/dsh-process` |
 | [dsh-flow](https://github.com/weibaohui/dsh-flow) |  | 执行流程图：把会话执行过程画成纵向节点流（回合/用户/助手/工具/审批/重试/压缩），SSE 实时追加、自动跟随滚动 | `dsh plugin add @weibaohui/dsh-flow` |
 | [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) |  | 审批链上的第二模型自动审查：只读审查子代理给出带理由的 allow/deny 裁决，默认失败即拒绝、全程可审计 | `dsh plugin add dsh-auto-review` |
+| [dsh-continue](https://github.com/weibaohui/dsh-continue) |  | 自动续跑：agent 会话中断后自动续上，按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑 | `dsh plugin add @weibaohui/dsh-continue` |
+| [dsh-tasks](https://github.com/weibaohui/dsh-tasks) |  | 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名 | `dsh plugin add @weibaohui/dsh-tasks` |
 
 </details>
 
@@ -441,7 +452,7 @@
 </details>
 
 <details>
-<summary>🏗️ 基础设施 / 插件管理 / 开发工具 · 40</summary>
+<summary>🏗️ 基础设施 / 插件管理 / 开发工具 · 42</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -485,11 +496,13 @@
 | [dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) |  | FDE 工具箱全家桶：安装一个插件带上一批常用 dsh 插件（代码仓库 / 挂载盘 / 知识库 / 定时任务 / 自动续跑 / 界面微调 / 自动复盘 / 文件管理 / 智能标题 / 任务看板 / 插件市场 / 上下文 / IM 接入 / 侧栏增强），面板看状态、一键补装 | `dsh plugin add @weibaohui/dsh-fde-tools` |
 | [dsh-sync](https://github.com/weibaohui/dsh-sync) |  | 多机同步：让多台机器上的 dsh 通过一个私有 GitCode 仓库保持一致——技能、会话、设置、插件清单四类内容各有独立开关；变更走分支 → PR → 合并，推送前自动回填远端新增防误删，支持 AI 智能对齐（语义合并双方改动）与一键解决冲突；强制私有仓库，pull 不覆盖本地改动 | `dsh plugin add @weibaohui/dsh-sync` |
 | [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) |  | Claude Code 风格声明式权限规则：按序 allow/deny/ask YAML 规则在 tools/pre-execute 瀑布匹配工具名/参数/工作区路径/agent 身份，会话日志审计 + 干跑 + 热重载 | `dsh plugin add dsh-permission-rules` |
+| [user-management](https://github.com/weibaohui/user-management) |  | 用户管理：给 dsh web 加登录门禁，未登录访问弹登录/注册页，首个注册者自动成为管理员；管理员可管理用户/角色，带登录与访问审计 | `dsh plugin add @weibaohui/user-management` |
+| [dsh-privacy-guard](https://github.com/amwangfan/dsh-privacy-guard) |  | 隐私保护：本地网关凭据脱敏与流式还原、豁免白名单、加密密钥管理、凭据保护模型入口，内置 Qwen2.5-0.5B 本地模型探针与泄密探测沙箱及部署控制 | `dsh plugin add github:amwangfan/dsh-privacy-guard` |
 
 </details>
 
 <details>
-<summary>🎮 娱乐 / 其他 · 36</summary>
+<summary>🎮 娱乐 / 其他 · 37</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -529,6 +542,7 @@
 | [dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) |  | 烟花庆祝引擎：agent 编程时漂浮对话窗口上空放烟花，开场/回合/工具/里程碑/收工/失败各一类事件卡组随机抽取，token 用量决定大小与绚烂程度 | `dsh plugin add @weibaohui/dsh-fireworks` |
 | [dsh-matrix](https://github.com/weibaohui/dsh-matrix) |  | 黑客帝国数字雨：对话窗口铺上经典的绿色字符雨背景——雨柱倾泻而下、白炽雨头绿身拖尾，agent 正在生成的 token 原文实时掺进雨里；透明度/速度/密度/字号/配色全部可调，雨势跟随 agent 活跃度起伏 | `dsh plugin add @weibaohui/dsh-matrix` |
 | [dsh-kite](https://github.com/weibaohui/dsh-kite) |  | 放风筝引擎：agent 编程时屏幕上放一只动画风筝——token 越多事件越密风筝飞得越高，随风漂移摆动，一根线牵在窗口底边；潍坊系框架卡组（沙燕/金鱼/蝴蝶/八卦/龙头等，硬翅软翅板式立体），形状×图案×配色全是可替换数据配置，支持把用户图片糊上风筝面、贴图随风筝姿态实时仿射变换 | `dsh plugin add @weibaohui/dsh-kite` |
+| [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) |  | 元气鲸鱼娘桌宠：摸头养成 / 工作姿态联动 / 90+ 立绘 / 39 成就 / 自带设置面板，桌面端（DSH 0.2.0-rc.2）与旧版 Web 双端支持 | `dsh plugin add github:Sutera-Diffusus/dsh-whale-musume` |
 
 </details>
 

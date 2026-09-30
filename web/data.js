@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-30T12:55:56.458Z",
+  "generatedAt": "2026-09-30T15:45:22.772Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 339,
+    "plugins": 353,
     "categories": 14,
-    "withInstall": 266,
+    "withInstall": 280,
     "withStars": 281
   },
   "categories": [
@@ -634,6 +634,26 @@ window.__DSH_DATA__ = {
       "category": "skills"
     },
     {
+      "name": "dsh-amphoreus",
+      "url": "https://github.com/xi-kari/dsh-amphoreus",
+      "owner": "xi-kari",
+      "repo": "dsh-amphoreus",
+      "description": "把 δ-me13（翁法罗斯）13 张角色技能卡变成席位工作区：逐席主题与壁纸、首轮注入技能卡、对话表情、每席记忆与预设、Alt+数字切席、派发与移交总览画布；技能套件从本地目录读取，不随插件打包",
+      "stars": null,
+      "install": "dsh plugin add dsh-amphoreus",
+      "category": "skills"
+    },
+    {
+      "name": "skills-management",
+      "url": "https://github.com/weibaohui/skills-management",
+      "owner": "weibaohui",
+      "repo": "skills-management",
+      "description": "技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/skills-management",
+      "category": "skills"
+    },
+    {
       "name": "dsh-mcp-proxy",
       "url": "https://github.com/ben7am1n/dsh-mcp-proxy",
       "owner": "ben7am1n",
@@ -1184,6 +1204,36 @@ window.__DSH_DATA__ = {
       "category": "ui-themes"
     },
     {
+      "name": "dsh-worktree",
+      "url": "https://github.com/alpacachen/dsh-worktree",
+      "owner": "alpacachen",
+      "repo": "dsh-worktree",
+      "description": "极简 Git worktree 管理：一个按钮和一个对话框创建任务分支 worktree，并直接打开为 DSH Workspace",
+      "stars": null,
+      "install": "dsh plugin --profile web add @alpacachen/dsh-simple-worktree",
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-settings-ui",
+      "url": "https://github.com/weibaohui/dsh-settings-ui",
+      "owner": "weibaohui",
+      "repo": "dsh-settings-ui",
+      "description": "设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-settings-ui",
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-park-notes",
+      "url": "https://github.com/kevin-zx/dsh-park-notes",
+      "owner": "kevin-zx",
+      "repo": "dsh-park-notes",
+      "description": "等待 AI 输出时随手记录想聊的话题：输入框上方常驻「稍后说」便签条，零打断、随会话保存，稍后一键带入草稿",
+      "stars": null,
+      "install": "dsh plugin --profile web add github:kevin-zx/dsh-park-notes",
+      "category": "ui-themes"
+    },
+    {
       "name": "dsh-TUI",
       "url": "https://github.com/ccch1mneyyy/dsh-TUI",
       "owner": "ccch1mneyyy",
@@ -1554,6 +1604,16 @@ window.__DSH_DATA__ = {
       "category": "agent-orchestration"
     },
     {
+      "name": "experts-management",
+      "url": "https://github.com/weibaohui/experts-management",
+      "owner": "weibaohui",
+      "repo": "experts-management",
+      "description": "专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），内置 50+ 专家市场，`/expert-名称` 以专家身份执行任务，不占模型目录 token",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/experts-management",
+      "category": "agent-orchestration"
+    },
+    {
       "name": "dsh-memory-evolve",
       "url": "https://github.com/csyangwen/dsh-memory-evolve",
       "owner": "csyangwen",
@@ -1851,6 +1911,36 @@ window.__DSH_DATA__ = {
       "description": "有界、分层、审批门、可审计的跨会话记忆：`ctx.memory` 服务 + 零依赖 SQLite + memory 工具 + 冻结快照注入",
       "stars": null,
       "install": "dsh plugin add dsh-memento",
+      "category": "context-memory"
+    },
+    {
+      "name": "hermes-loop",
+      "url": "https://github.com/weibaohui/hermes-loop",
+      "owner": "weibaohui",
+      "repo": "hermes-loop",
+      "description": "自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持审批模式与技能库治理（归档/恢复，永不直接删除）",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/hermes-loop",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-session-manager",
+      "url": "https://github.com/SunshineR04/dsh-session-manager",
+      "owner": "SunshineR04",
+      "repo": "dsh-session-manager",
+      "description": "已归档会话管理：设置页列出/恢复/彻底删除（直接物理删除，无备份层），会话菜单红色删除项；已打开的会话也能立即删除（墓碑隐藏，重启后自动清理）",
+      "stars": null,
+      "install": "dsh plugin add github:SunshineR04/dsh-session-manager",
+      "category": "context-memory"
+    },
+    {
+      "name": "context-razor",
+      "url": "https://github.com/weibaohui/context-razor",
+      "owner": "weibaohui",
+      "repo": "context-razor",
+      "description": "上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/context-razor",
       "category": "context-memory"
     },
     {
@@ -2291,6 +2381,26 @@ window.__DSH_DATA__ = {
       "description": "审批链上的第二模型自动审查：只读审查子代理给出带理由的 allow/deny 裁决，默认失败即拒绝、全程可审计",
       "stars": null,
       "install": "dsh plugin add dsh-auto-review",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-continue",
+      "url": "https://github.com/weibaohui/dsh-continue",
+      "owner": "weibaohui",
+      "repo": "dsh-continue",
+      "description": "自动续跑：agent 会话中断后自动续上，按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-continue",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-tasks",
+      "url": "https://github.com/weibaohui/dsh-tasks",
+      "owner": "weibaohui",
+      "repo": "dsh-tasks",
+      "description": "定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-tasks",
       "category": "workflow-automation"
     },
     {
@@ -3054,6 +3164,26 @@ window.__DSH_DATA__ = {
       "category": "infrastructure-dev"
     },
     {
+      "name": "user-management",
+      "url": "https://github.com/weibaohui/user-management",
+      "owner": "weibaohui",
+      "repo": "user-management",
+      "description": "用户管理：给 dsh web 加登录门禁，未登录访问弹登录/注册页，首个注册者自动成为管理员；管理员可管理用户/角色，带登录与访问审计",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/user-management",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-privacy-guard",
+      "url": "https://github.com/amwangfan/dsh-privacy-guard",
+      "owner": "amwangfan",
+      "repo": "dsh-privacy-guard",
+      "description": "隐私保护：本地网关凭据脱敏与流式还原、豁免白名单、加密密钥管理、凭据保护模型入口，内置 Qwen2.5-0.5B 本地模型探针与泄密探测沙箱及部署控制",
+      "stars": null,
+      "install": "dsh plugin add github:amwangfan/dsh-privacy-guard",
+      "category": "infrastructure-dev"
+    },
+    {
       "name": "dsh-gomoku",
       "url": "https://github.com/omdsh-dev/dsh-gomoku",
       "owner": "omdsh-dev",
@@ -3411,6 +3541,16 @@ window.__DSH_DATA__ = {
       "description": "放风筝引擎：agent 编程时屏幕上放一只动画风筝——token 越多事件越密风筝飞得越高，随风漂移摆动，一根线牵在窗口底边；潍坊系框架卡组（沙燕/金鱼/蝴蝶/八卦/龙头等，硬翅软翅板式立体），形状×图案×配色全是可替换数据配置，支持把用户图片糊上风筝面、贴图随风筝姿态实时仿射变换",
       "stars": null,
       "install": "dsh plugin add @weibaohui/dsh-kite",
+      "category": "fun-other"
+    },
+    {
+      "name": "dsh-whale-musume",
+      "url": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+      "owner": "Sutera-Diffusus",
+      "repo": "dsh-whale-musume",
+      "description": "元气鲸鱼娘桌宠：摸头养成 / 工作姿态联动 / 90+ 立绘 / 39 成就 / 自带设置面板，桌面端（DSH 0.2.0-rc.2）与旧版 Web 双端支持",
+      "stars": null,
+      "install": "dsh plugin add github:Sutera-Diffusus/dsh-whale-musume",
       "category": "fun-other"
     },
     {

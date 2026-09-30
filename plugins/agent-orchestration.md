@@ -18,6 +18,8 @@
 - [dsh-product-subagent-console](https://github.com/Jokasa7/dsh-product-subagent-console) — DSH 对话级多 Agent 工作台：可编辑任务方案、观察真实子会话树、对照计划与实际运行，并生成基于证据的恢复预览 · [v0.9.0 安装说明](https://github.com/Jokasa7/dsh-product-subagent-console#install)
 - [dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) — 会话智能标题：每轮对话结束后用一次独立的辅助 LLM 调用对「用户消息+助手回答」完整转写做总结，标题跟随会话真实主题而不是复述第一句话；首条消息即时生成标题、内置标题失败在后续轮次自动重试、用户手动改名绝不被覆盖、自动跳过子代理与 fork 会话 · `dsh plugin add @weibaohui/dsh-smart-title`
 
+- [experts-management](https://github.com/weibaohui/experts-management) — 专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），内置 50+ 专家市场，`/expert-名称` 以专家身份执行任务，不占模型目录 token · `dsh plugin add @weibaohui/experts-management`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) · [返回目录](../README.md) · [下一类: 🧠 上下文 / 记忆](context-memory.md) →
