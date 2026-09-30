@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-30T09:04:49.306Z",
+  "generatedAt": "2026-09-30T12:55:56.458Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 339,
     "categories": 14,
-    "withInstall": 234,
-    "withStars": 283
+    "withInstall": 266,
+    "withStars": 281
   },
   "categories": [
     {
@@ -431,6 +431,46 @@ window.__DSH_DATA__ = {
       "description": "事务化强力卸载引擎：每个破坏性动作走 validate/preview/execute/undo 四段式 + Saga 回滚，WAL 崩溃自恢复、hash chain 审计链、硬链接去重、贝叶斯先知推演成功率；回收区代替物理删除（可恢复）",
       "stars": 2,
       "install": "dsh plugin add github:beijingwahw/dsh-nuke-plugin",
+      "category": "tools"
+    },
+    {
+      "name": "dsh-qingagent",
+      "url": "https://github.com/void2anything/dsh-qingagent",
+      "owner": "void2anything",
+      "repo": "dsh-qingagent",
+      "description": "把开源 AI 写作客户端青简（QingAgent）接进 DSH：对话里起草改稿，右侧宣纸面板排版渲染（mermaid/drawio/表格/KaTeX），每处修改先摆在纸上供审阅、提交才落稿，10 个工具；需本机运行青简桌面客户端",
+      "stars": null,
+      "install": "dsh plugin add dsh-qingagent",
+      "category": "tools"
+    },
+    {
+      "name": "dsh-webdav-server",
+      "url": "https://github.com/weibaohui/dsh-webdav-server",
+      "owner": "weibaohui",
+      "repo": "dsh-webdav-server",
+      "description": "WebDAV 服务器：把一个共享目录变成 Windows/macOS/Linux 都能挂载成本地磁盘的 WebDAV 服务，令牌认证、可选只读、目录/端口/令牌全可配，设置页自带三平台挂载指南",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-webdav-server",
+      "category": "tools"
+    },
+    {
+      "name": "dsh-file-share",
+      "url": "https://github.com/weibaohui/dsh-file-share",
+      "owner": "weibaohui",
+      "repo": "dsh-file-share",
+      "description": "会话工作区文件管理：在对话区加「文件」tab，浏览当前会话工作区的目录树并就地管理（上传/下载/新建文件夹/改名/删除/搜索），文件可 @ 进对话框给 agent 处理",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-file-share",
+      "category": "tools"
+    },
+    {
+      "name": "dsh-dashboard",
+      "url": "https://github.com/weibaohui/dsh-dashboard",
+      "owner": "weibaohui",
+      "repo": "dsh-dashboard",
+      "description": "使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入）",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-dashboard",
       "category": "tools"
     },
     {
@@ -1054,16 +1094,6 @@ window.__DSH_DATA__ = {
       "category": "ui-themes"
     },
     {
-      "name": "dsh-what-changed",
-      "url": "https://github.com/sjh9714/dsh-what-changed",
-      "owner": "sjh9714",
-      "repo": "dsh-what-changed",
-      "description": "会话顶栏一屏看完整会话改动，列出 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动 · `dsh plugin --profile web add dsh-what-changed`",
-      "stars": 2,
-      "install": null,
-      "category": "ui-themes"
-    },
-    {
       "name": "dsh-easyrewrite",
       "url": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
       "owner": "Renzic-Stone",
@@ -1124,6 +1154,36 @@ window.__DSH_DATA__ = {
       "category": "ui-themes"
     },
     {
+      "name": "dsh-approval-hotkeys",
+      "url": "https://github.com/SiriLee/dsh-approval-hotkeys",
+      "owner": "SiriLee",
+      "repo": "dsh-approval-hotkeys",
+      "description": "审批面板键盘快捷键：Enter 批准一次、Esc 拒绝、Esc 暂停键盘驱动审阅",
+      "stars": null,
+      "install": "dsh plugin add dsh-approval-hotkeys",
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-billing-badge",
+      "url": "https://github.com/devacc8/dsh-billing-badge",
+      "owner": "devacc8",
+      "repo": "dsh-billing-badge",
+      "description": "输入框统计行里、原生 Cache hit 之后的小胶囊：高峰/非高峰圆点与切换倒计时，点击展开余额面板（总额、赠送、充值的拆分与 API 可用性），货币取自接口返回值",
+      "stars": null,
+      "install": "dsh plugin --profile web add dsh-billing-badge",
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-round-rightclick",
+      "url": "https://github.com/hmr-BH/dsh-round-rightclick",
+      "owner": "hmr-BH",
+      "repo": "dsh-round-rightclick",
+      "description": "在 DSH Web GUI 的对话轮次上提供径向右键菜单：从指定轮次分叉新会话、中断正在运行的生成、复制工作目录路径、复制会话 ID、在文件管理器中打开工作目录、导出会话日志为 ZIP",
+      "stars": null,
+      "install": "dsh plugin add dsh-round-rightclick",
+      "category": "ui-themes"
+    },
+    {
       "name": "dsh-TUI",
       "url": "https://github.com/ccch1mneyyy/dsh-TUI",
       "owner": "ccch1mneyyy",
@@ -1161,16 +1221,6 @@ window.__DSH_DATA__ = {
       "description": "Ink/React 终端原生 TUI",
       "stars": 11,
       "install": "dsh plugin add deepseek-harness-tui",
-      "category": "desktop-tui-mobile"
-    },
-    {
-      "name": "dsh-tui",
-      "url": "https://github.com/orriduck/dsh-tui",
-      "owner": "orriduck",
-      "repo": "dsh-tui",
-      "description": "轻量、会话感知的终端 UI",
-      "stars": 3,
-      "install": "dsh plugin add dsh-tui",
       "category": "desktop-tui-mobile"
     },
     {
@@ -1354,6 +1404,16 @@ window.__DSH_DATA__ = {
       "category": "desktop-tui-mobile"
     },
     {
+      "name": "dsh-ssh-tui",
+      "url": "https://github.com/cyjyyd/dsh-ssh-tui",
+      "owner": "cyjyyd",
+      "repo": "dsh-ssh-tui",
+      "description": "跳板机/高延迟 SSH 上的 DSH 终端：纯 ANSI、增量重绘；SSH 掉线后会话不丢，`--resume` 接回",
+      "stars": null,
+      "install": "dsh plugin --profile tui add dsh-ssh-tui",
+      "category": "desktop-tui-mobile"
+    },
+    {
       "name": "dsh-agent-teams",
       "url": "https://github.com/NanmiCoder/dsh-agent-teams",
       "owner": "NanmiCoder",
@@ -1451,6 +1511,46 @@ window.__DSH_DATA__ = {
       "description": "去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖）",
       "stars": 7,
       "install": "dsh plugin add dsh-devices",
+      "category": "agent-orchestration"
+    },
+    {
+      "name": "dsh-wait-guard",
+      "url": "https://github.com/dn4hjtcr9s-del/dsh-wait-guard",
+      "owner": "dn4hjtcr9s-del",
+      "repo": "dsh-wait-guard",
+      "description": "主 Agent 的出口闸门：后代子代理还有 running 就不允许 turn 结束；消息到达立刻完全退场，超时才注入一条提醒后同样退场",
+      "stars": null,
+      "install": "dsh plugin add github:dn4hjtcr9s-del/dsh-wait-guard",
+      "category": "agent-orchestration"
+    },
+    {
+      "name": "lunheng-article-pipeline-dsh",
+      "url": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh",
+      "owner": "zuoyunlai",
+      "repo": "lunheng-article-pipeline-dsh",
+      "description": "论衡：主控调度 + 9 个独立角色（文献/数据/案例检索、分析、写作、批判、审计、终检、同行评审）的深度长文写作流水线，跨 6 阶段，含 4 个人在环节点、三角验证、M 门 23 项机械终检、G0-G14 独立审计与审稿评分/期刊匹配",
+      "stars": null,
+      "install": "dsh plugin add lunheng-article-pipeline",
+      "category": "agent-orchestration"
+    },
+    {
+      "name": "dsh-product-subagent-console",
+      "url": "https://github.com/Jokasa7/dsh-product-subagent-console",
+      "owner": "Jokasa7",
+      "repo": "dsh-product-subagent-console",
+      "description": "DSH 对话级多 Agent 工作台：可编辑任务方案、观察真实子会话树、对照计划与实际运行，并生成基于证据的恢复预览 · [v0.9.0 安装说明](https://github.com/Jokasa7/dsh-product-subagent-console#install)",
+      "stars": null,
+      "install": null,
+      "category": "agent-orchestration"
+    },
+    {
+      "name": "dsh-smart-title",
+      "url": "https://github.com/weibaohui/dsh-smart-title",
+      "owner": "weibaohui",
+      "repo": "dsh-smart-title",
+      "description": "会话智能标题：每轮对话结束后用一次独立的辅助 LLM 调用对「用户消息+助手回答」完整转写做总结，标题跟随会话真实主题而不是复述第一句话；首条消息即时生成标题、内置标题失败在后续轮次自动重试、用户手动改名绝不被覆盖、自动跳过子代理与 fork 会话",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-smart-title",
       "category": "agent-orchestration"
     },
     {
@@ -1691,6 +1791,66 @@ window.__DSH_DATA__ = {
       "description": "迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH",
       "stars": 27,
       "install": "dsh plugin add dsh-claude-move",
+      "category": "context-memory"
+    },
+    {
+      "name": "taskfold",
+      "url": "https://github.com/yindf/taskfold",
+      "owner": "yindf",
+      "repo": "taskfold",
+      "description": "把已完成的 agent 工作折叠成一条带标题的摘要，长会话保持可读、请求更省；每次折叠的原始内容可随时原样读回",
+      "stars": null,
+      "install": "dsh plugin add dsh-taskfold",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-rewind",
+      "url": "https://github.com/SiriLee/dsh-rewind",
+      "owner": "SiriLee",
+      "repo": "dsh-rewind",
+      "description": "同窗口原地回退（Claude Code /rewind 语义）：每条用户消息旁 ↶ 按钮把模型上下文截断回任意一条消息，可选 Claude Code 风格文件回滚",
+      "stars": null,
+      "install": "dsh plugin add dsh-rewind-plugin",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-memory_rollout",
+      "url": "https://github.com/Bionic-forest/dsh-memory_rollout",
+      "owner": "Bionic-forest",
+      "repo": "dsh-memory_rollout",
+      "description": "Codex 风格的 DSH 会话持久记忆：一会话一草稿、分层披露、克制被动、幂等整合，跨会话记住事实/偏好/决策并带可核验引用",
+      "stars": null,
+      "install": "dsh plugin add dsh-memory_rollout",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-squeeze-command",
+      "url": "https://github.com/hardes11/dsh-squeeze-command",
+      "owner": "hardes11",
+      "repo": "dsh-squeeze-command",
+      "description": "手动、面向预算的上下文压缩：对话模型圈定要总结的范围，廉价 flash 级路由生成检查点摘要",
+      "stars": null,
+      "install": "dsh plugin add dsh-squeeze-command",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-kb",
+      "url": "https://github.com/weibaohui/dsh-kb",
+      "owner": "weibaohui",
+      "repo": "dsh-kb",
+      "description": "团队知识库：离线知识共享（FDE 盒子场景），浏览/全文检索/加工入口；raw 入料自动入队、bot 会话串行蒸馏成文（Karpathy LLM Wiki 模式：raw 不可变 / 两步加工 / log 流水 / 月度 lint）",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-kb",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-memento",
+      "url": "https://github.com/PerryLink/dsh-memento",
+      "owner": "PerryLink",
+      "repo": "dsh-memento",
+      "description": "有界、分层、审批门、可审计的跨会话记忆：`ctx.memory` 服务 + 零依赖 SQLite + memory 工具 + 冻结快照注入",
+      "stars": null,
+      "install": "dsh plugin add dsh-memento",
       "category": "context-memory"
     },
     {
@@ -2084,6 +2244,56 @@ window.__DSH_DATA__ = {
       "category": "workflow-automation"
     },
     {
+      "name": "dsh-oh-my-claude",
+      "url": "https://github.com/lcestou/dsh-oh-my-claude",
+      "owner": "lcestou",
+      "repo": "dsh-oh-my-claude",
+      "description": "把本机已登录的 Claude Code CLI 接成 dsh 的模型提供方：在 dsh 的模型选择器里直接选 Claude 模型，不需要 API Key；带会话恢复、权限模式和用量面板，中英双语",
+      "stars": null,
+      "install": "dsh plugin add dsh-oh-my-claude",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-edit-approval",
+      "url": "https://github.com/SiriLee/dsh-edit-approval",
+      "owner": "SiriLee",
+      "repo": "dsh-edit-approval",
+      "description": "写文件/工具调用前的逐处审批门：write/edit/stream 操作显示红绿行级 diff 后再放行，bash 命令审批（默认关）",
+      "stars": null,
+      "install": "dsh plugin add dsh-edit-approval",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-process",
+      "url": "https://github.com/weibaohui/dsh-process",
+      "owner": "weibaohui",
+      "repo": "dsh-process",
+      "description": "工艺管理：把 ntd 的「工艺」（多阶段·多环节 agent 工作流模板）接进 dsh web——浏览/编辑/校验/导入导出/AI 生成工艺，内置库只读、我的库可写，文件改动实时同步；agent 可通过 process_* 工具读工艺库、按工艺分阶段推进",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-process",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-flow",
+      "url": "https://github.com/weibaohui/dsh-flow",
+      "owner": "weibaohui",
+      "repo": "dsh-flow",
+      "description": "执行流程图：把会话执行过程画成纵向节点流（回合/用户/助手/工具/审批/重试/压缩），SSE 实时追加、自动跟随滚动",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-flow",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-auto-review",
+      "url": "https://github.com/PerryLink/dsh-auto-review",
+      "owner": "PerryLink",
+      "repo": "dsh-auto-review",
+      "description": "审批链上的第二模型自动审查：只读审查子代理给出带理由的 allow/deny 裁决，默认失败即拒绝、全程可审计",
+      "stars": null,
+      "install": "dsh plugin add dsh-auto-review",
+      "category": "workflow-automation"
+    },
+    {
       "name": "telegram",
       "url": "https://github.com/LoserFox/telegram",
       "owner": "LoserFox",
@@ -2271,6 +2481,16 @@ window.__DSH_DATA__ = {
       "description": "分享任意段落的对话",
       "stars": 2,
       "install": "dsh plugin add @bill9109/dsh-conversation-share",
+      "category": "notifications-channels"
+    },
+    {
+      "name": "dsh-remote-dsh",
+      "url": "https://github.com/hutao562/dsh-remote-dsh",
+      "owner": "hutao562",
+      "repo": "dsh-remote-dsh",
+      "description": "在侧边栏顶部加一行，点击后整页切换成另一台 DSH 主机的 Web GUI（通过回环端口访问），并在该行显示那台主机的会话状态（运行中、有新活动、正等你回答）",
+      "stars": null,
+      "install": "dsh plugin --profile web add dsh-remote-dsh",
       "category": "notifications-channels"
     },
     {
@@ -2764,6 +2984,76 @@ window.__DSH_DATA__ = {
       "category": "infrastructure-dev"
     },
     {
+      "name": "dsh-config-manager",
+      "url": "https://github.com/xiajiajun516/dsh-config-manager",
+      "owner": "xiajiajun516",
+      "repo": "dsh-config-manager",
+      "description": "DSH 配置备份 / 恢复 / 导出 / 导入 / 迁移与同步：dry-run 预览、冲突逐项决策、失败自动回滚、跨机路径重映射、可选加密凭据载荷",
+      "stars": null,
+      "install": "dsh plugin add dsh-config-manager",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "sofagent",
+      "url": "https://github.com/KongFangXun/sofagent",
+      "owner": "KongFangXun",
+      "repo": "sofagent",
+      "description": "开源 FDE Harness 约束层：24 条 git diff 审计规则 + 80 个 MCP 工具 + 9 款 cordis-plugin 深度集成，Agent 违规当场拦截",
+      "stars": null,
+      "install": null,
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-backup",
+      "url": "https://github.com/xiaoyuyu6420/dsh-backup",
+      "owner": "xiaoyuyu6420",
+      "repo": "dsh-backup",
+      "description": "备份/恢复 DSH 用户数据：定时备份与分级保留、sha256 校验、升级前自动快照与迁移预检（预测哪些会话升完打不开）、会话日志体检（doctor）与定点修复、宿主起不来也能用的救援控制台",
+      "stars": null,
+      "install": "dsh plugin add @xiaoyuyu6420/dsh-backup",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-git-server",
+      "url": "https://github.com/weibaohui/dsh-git-server",
+      "owner": "weibaohui",
+      "repo": "dsh-git-server",
+      "description": "Git 服务器：内嵌 ts-gogs（Gogs 的 TypeScript 平替），独立端口跑完整 Git 服务（HTTP clone/push、网页端、issue/PR/wiki），可复用 user-management 的用户名密码，设置页一键启停",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-git-server",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-fde-tools",
+      "url": "https://github.com/weibaohui/dsh-fde-tools",
+      "owner": "weibaohui",
+      "repo": "dsh-fde-tools",
+      "description": "FDE 工具箱全家桶：安装一个插件带上一批常用 dsh 插件（代码仓库 / 挂载盘 / 知识库 / 定时任务 / 自动续跑 / 界面微调 / 自动复盘 / 文件管理 / 智能标题 / 任务看板 / 插件市场 / 上下文 / IM 接入 / 侧栏增强），面板看状态、一键补装",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-fde-tools",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-sync",
+      "url": "https://github.com/weibaohui/dsh-sync",
+      "owner": "weibaohui",
+      "repo": "dsh-sync",
+      "description": "多机同步：让多台机器上的 dsh 通过一个私有 GitCode 仓库保持一致——技能、会话、设置、插件清单四类内容各有独立开关；变更走分支 → PR → 合并，推送前自动回填远端新增防误删，支持 AI 智能对齐（语义合并双方改动）与一键解决冲突；强制私有仓库，pull 不覆盖本地改动",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-sync",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-permission-rules",
+      "url": "https://github.com/PerryLink/dsh-permission-rules",
+      "owner": "PerryLink",
+      "repo": "dsh-permission-rules",
+      "description": "Claude Code 风格声明式权限规则：按序 allow/deny/ask YAML 规则在 tools/pre-execute 瀑布匹配工具名/参数/工作区路径/agent 身份，会话日志审计 + 干跑 + 热重载",
+      "stars": null,
+      "install": "dsh plugin add dsh-permission-rules",
+      "category": "infrastructure-dev"
+    },
+    {
       "name": "dsh-gomoku",
       "url": "https://github.com/omdsh-dev/dsh-gomoku",
       "owner": "omdsh-dev",
@@ -3081,6 +3371,46 @@ window.__DSH_DATA__ = {
       "description": "中文小说写作助手：句式/情感/意象分析、文笔六维基线带（μ±σ 对照）、12 轴氛围光谱、风格画像报告、本地语义检索（0 token）+ 伏笔设定管理，15 个工具",
       "stars": 18,
       "install": "dsh plugin add dsh-novel-writer",
+      "category": "fun-other"
+    },
+    {
+      "name": "dsh-gaokao",
+      "url": "https://github.com/weibaohui/dsh-gaokao",
+      "owner": "weibaohui",
+      "repo": "dsh-gaokao",
+      "description": "梦回高三：桌面小黑板高考倒计时（双击收成竖条），AI 干活时随机抽背知识点卡；Markdown 开放知识卡框架",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-gaokao",
+      "category": "fun-other"
+    },
+    {
+      "name": "dsh-fireworks",
+      "url": "https://github.com/weibaohui/dsh-fireworks",
+      "owner": "weibaohui",
+      "repo": "dsh-fireworks",
+      "description": "烟花庆祝引擎：agent 编程时漂浮对话窗口上空放烟花，开场/回合/工具/里程碑/收工/失败各一类事件卡组随机抽取，token 用量决定大小与绚烂程度",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-fireworks",
+      "category": "fun-other"
+    },
+    {
+      "name": "dsh-matrix",
+      "url": "https://github.com/weibaohui/dsh-matrix",
+      "owner": "weibaohui",
+      "repo": "dsh-matrix",
+      "description": "黑客帝国数字雨：对话窗口铺上经典的绿色字符雨背景——雨柱倾泻而下、白炽雨头绿身拖尾，agent 正在生成的 token 原文实时掺进雨里；透明度/速度/密度/字号/配色全部可调，雨势跟随 agent 活跃度起伏",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-matrix",
+      "category": "fun-other"
+    },
+    {
+      "name": "dsh-kite",
+      "url": "https://github.com/weibaohui/dsh-kite",
+      "owner": "weibaohui",
+      "repo": "dsh-kite",
+      "description": "放风筝引擎：agent 编程时屏幕上放一只动画风筝——token 越多事件越密风筝飞得越高，随风漂移摆动，一根线牵在窗口底边；潍坊系框架卡组（沙燕/金鱼/蝴蝶/八卦/龙头等，硬翅软翅板式立体），形状×图案×配色全是可替换数据配置，支持把用户图片糊上风筝面、贴图随风筝姿态实时仿射变换",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-kite",
       "category": "fun-other"
     },
     {

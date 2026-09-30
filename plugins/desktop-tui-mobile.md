@@ -10,7 +10,6 @@
 - [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — DSH 终端 TUI（天枢） ⭐284 · `dsh plugin add @huiliyi37/dsh-tianshu-tui`
 - [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) — Pi TUI 前端：流式 markdown、思考折叠、工具卡、斜杠命令 ⭐2
 - [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) — Ink/React 终端原生 TUI ⭐11 · `dsh plugin add deepseek-harness-tui`
-- [dsh-tui](https://github.com/orriduck/dsh-tui) — 轻量、会话感知的终端 UI ⭐3 · `dsh plugin add dsh-tui`
 - [dsh-tui](https://github.com/dsh-tui/dsh-tui) — Claude Code 风格终端 UI（out-of-tree bundle） ⭐33 · `dsh plugin add @dsh-tui/dsh-tui`
 
 ## 社区发行版
@@ -41,6 +40,8 @@
 - [dsh-companion](https://github.com/william-jin-cmu/dsh-companion) — 常驻桌面助手：全局唤起、定时自动化、快捷回复、插件市场 ⭐4
 - [dsh-mobile](https://github.com/lehhair/dsh-mobile) — 移动端客户端（⚠️ dsh-external，公开性待核实） ⭐25
 - [deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui) — Rust/ratatui 编写的 DSH 终端 TUI ⭐78 · `dsh plugin add github:openma-ai/deepseek-harness-tui`
+
+- [dsh-ssh-tui](https://github.com/cyjyyd/dsh-ssh-tui) — 跳板机/高延迟 SSH 上的 DSH 终端：纯 ANSI、增量重绘；SSH 掉线后会话不丢，`--resume` 接回 · `dsh plugin --profile tui add dsh-ssh-tui`
 
 <!-- nav:start -->
 ---

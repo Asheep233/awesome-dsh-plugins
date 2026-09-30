@@ -49,6 +49,11 @@
 - [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) — DeepSeek 账户余额与会话成本显示 ⭐18 · `dsh plugin add github:Ghost011118/dsh-balance-meter`
 - [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 中文小说写作助手：句式/情感/意象分析、文笔六维基线带（μ±σ 对照）、12 轴氛围光谱、风格画像报告、本地语义检索（0 token）+ 伏笔设定管理，15 个工具 ⭐18 · `dsh plugin add dsh-novel-writer`
 
+- [dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) — 梦回高三：桌面小黑板高考倒计时（双击收成竖条），AI 干活时随机抽背知识点卡；Markdown 开放知识卡框架 · `dsh plugin add @weibaohui/dsh-gaokao`
+- [dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) — 烟花庆祝引擎：agent 编程时漂浮对话窗口上空放烟花，开场/回合/工具/里程碑/收工/失败各一类事件卡组随机抽取，token 用量决定大小与绚烂程度 · `dsh plugin add @weibaohui/dsh-fireworks`
+- [dsh-matrix](https://github.com/weibaohui/dsh-matrix) — 黑客帝国数字雨：对话窗口铺上经典的绿色字符雨背景——雨柱倾泻而下、白炽雨头绿身拖尾，agent 正在生成的 token 原文实时掺进雨里；透明度/速度/密度/字号/配色全部可调，雨势跟随 agent 活跃度起伏 · `dsh plugin add @weibaohui/dsh-matrix`
+- [dsh-kite](https://github.com/weibaohui/dsh-kite) — 放风筝引擎：agent 编程时屏幕上放一只动画风筝——token 越多事件越密风筝飞得越高，随风漂移摆动，一根线牵在窗口底边；潍坊系框架卡组（沙燕/金鱼/蝴蝶/八卦/龙头等，硬翅软翅板式立体），形状×图案×配色全是可替换数据配置，支持把用户图片糊上风筝面、贴图随风筝姿态实时仿射变换 · `dsh plugin add @weibaohui/dsh-kite`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🏗️ 基础设施 / 插件管理 / 开发工具](infrastructure-dev.md) · [返回目录](../README.md) · [下一类: 🏛️ 官方核心与元项目](official-meta.md) →

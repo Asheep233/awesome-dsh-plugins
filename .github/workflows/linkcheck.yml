@@ -19,6 +19,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
+          update-existing: true
           args: --no-progress --accept 200,201,204,301,302,304,307,308 --timeout 20 --max-redirects 3 --exclude 'img\.shields\.io' '**/*.md'
           fail: true
         env:
