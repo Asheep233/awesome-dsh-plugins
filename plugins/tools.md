@@ -19,7 +19,7 @@
 - [dsh-tool-search](https://github.com/vibeinging/dsh-tool-search) — 按 agent 的按需工具发现 + 渐进式 schema 披露 ⭐1 · `dsh plugin add @deepseek-ai/dsh-tool-search`
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) — 用 Monaco 编辑器创建/管理沙箱化自定义 JS 工具 ⭐23 · `dsh plugin add dsh-custom-tool`
 - [dsh-bash-encoding](https://github.com/lhh010/dsh-bash-encoding) — 自动识别并解码 Bash 输出编码（UTF-16LE/UTF-8/GBK），修中文乱码 ⭐8
-- [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) — Codex 风格 `@file` 文件引用，输入框里直接搜索并引用工作区文件 ⭐513 · `dsh plugin add dsh-at-file`
+- [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) — Codex 风格 `@file` 文件引用，输入框里直接搜索并引用工作区文件 ⭐514 · `dsh plugin add dsh-at-file`
 - [dsh-wikilink](https://github.com/zhaoscsc/dsh-wikilink) — Obsidian 风格 `[[wikilink]]` 提及：模糊搜索笔记标题并附加内容 ⭐2 · `dsh plugin add dsh-wikilink`
 - [dsh-safe-delete](https://github.com/Qintsg/dsh-safe-delete) — 安全删除：移入回收站/暂存区而非永久删除，支持恢复 ⭐1
 - [dsh-bisect-debug](https://github.com/PangYiMing/dsh-bisect-debug) — 二分法定位 bug 根因（代码/边界/commit） · `dsh plugin add dsh-bisect-debug`
@@ -34,9 +34,9 @@
 - [dsh-scout](https://github.com/omdsh-dev/dsh-scout) — 只读环境探测：运行环境/版本/资源/端口/服务/硬件/工作区 ⭐1 · `dsh plugin add @deepseek-ai/dsh-tool-scout`
 - [dsh-nuke-plugin](https://github.com/beijingwahw/dsh-nuke-plugin) — 事务化强力卸载引擎：每个破坏性动作走 validate/preview/execute/undo 四段式 + Saga 回滚，WAL 崩溃自恢复、hash chain 审计链、硬链接去重、贝叶斯先知推演成功率；回收区代替物理删除（可恢复） ⭐2 · `dsh plugin add github:beijingwahw/dsh-nuke-plugin`
 
-- [dsh-qingagent](https://github.com/void2anything/dsh-qingagent) — 把开源 AI 写作客户端青简（QingAgent）接进 DSH：对话里起草改稿，右侧宣纸面板排版渲染（mermaid/drawio/表格/KaTeX），每处修改先摆在纸上供审阅、提交才落稿，10 个工具；需本机运行青简桌面客户端 · `dsh plugin add dsh-qingagent`
-- [dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) — WebDAV 服务器：把一个共享目录变成 Windows/macOS/Linux 都能挂载成本地磁盘的 WebDAV 服务，令牌认证、可选只读、目录/端口/令牌全可配，设置页自带三平台挂载指南 · `dsh plugin add @weibaohui/dsh-webdav-server`
-- [dsh-file-share](https://github.com/weibaohui/dsh-file-share) — 会话工作区文件管理：在对话区加「文件」tab，浏览当前会话工作区的目录树并就地管理（上传/下载/新建文件夹/改名/删除/搜索），文件可 @ 进对话框给 agent 处理 · `dsh plugin add @weibaohui/dsh-file-share`
+- [dsh-qingagent](https://github.com/void2anything/dsh-qingagent) — 把开源 AI 写作客户端青简（QingAgent）接进 DSH：对话里起草改稿，右侧宣纸面板排版渲染（mermaid/drawio/表格/KaTeX），每处修改先摆在纸上供审阅、提交才落稿，10 个工具；需本机运行青简桌面客户端 ⭐2 · `dsh plugin add dsh-qingagent`
+- [dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) — WebDAV 服务器：把一个共享目录变成 Windows/macOS/Linux 都能挂载成本地磁盘的 WebDAV 服务，令牌认证、可选只读、目录/端口/令牌全可配，设置页自带三平台挂载指南 ⭐1 · `dsh plugin add @weibaohui/dsh-webdav-server`
+- [dsh-file-share](https://github.com/weibaohui/dsh-file-share) — 会话工作区文件管理：在对话区加「文件」tab，浏览当前会话工作区的目录树并就地管理（上传/下载/新建文件夹/改名/删除/搜索），文件可 @ 进对话框给 agent 处理 ⭐1 · `dsh plugin add @weibaohui/dsh-file-share`
 - [dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) — 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入） · `dsh plugin add @weibaohui/dsh-dashboard`
 
 <!-- nav:start -->

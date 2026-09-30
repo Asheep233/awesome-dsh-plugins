@@ -10,7 +10,7 @@
 - [dsh-superpowers](https://github.com/codeAnqiang-ma/dsh-superpowers) — Superpowers（obra/superpowers）作为 DSH 插件：方法论技能 + 会话引导 ⭐8 · `dsh plugin add dsh-superpowers`
 - [dsh-plugin-code-review](https://github.com/YYTbit/dsh-plugin-code-review) — 结构化代码审查技能（YYTbit 系列） · `dsh plugin add dsh-plugin-code-review`
 - [dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) — 增量 diff 审查：checkpoint 队列 + Web 面板 + 审查意见注入 agent ⭐1 · `dsh plugin add @dsh-plugin/dsh-review-loop`
-- [dsh-plugin-claude-bridge](https://github.com/YYTbit/dsh-plugin-claude-bridge) — 把 Claude Code 记忆/技能/配置桥接进 DSH ⭐9 · `dsh plugin add dsh-plugin-claude-bridge`
+- [dsh-plugin-claude-bridge](https://github.com/YYTbit/dsh-plugin-claude-bridge) — 把 Claude Code 记忆/技能/配置桥接进 DSH ⭐8 · `dsh plugin add dsh-plugin-claude-bridge`
 - [dsh-plugin-codex-bridge](https://github.com/YYTbit/dsh-plugin-codex-bridge) — 把 Codex skills/config 桥接进 DSH ⭐2 · `dsh plugin add dsh-plugin-codex-bridge`
 - [dsh-plugin-opencode-bridge](https://github.com/YYTbit/dsh-plugin-opencode-bridge) — 把 OpenCode skills/config 桥接进 DSH ⭐4 · `dsh plugin add dsh-plugin-opencode-bridge`
 - [dsh-plugin-pi-bridge](https://github.com/YYTbit/dsh-plugin-pi-bridge) — 把 pi skills/config 桥接进 DSH ⭐2 · `dsh plugin add dsh-plugin-pi-bridge`
@@ -19,8 +19,8 @@
 - [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) — 帮 DSH 搜索、安装并验证 GitHub 插件的 Skill ⭐176 · `dsh plugin add github:Nagi-ovo/dsh-find-plugins`
 - [forkprobe](https://github.com/Jayden-X-L/forkprobe) — 同一任务对比多个 skill 并选出最优 ⭐73 · `dsh plugin add github:Jayden-X-L/forkprobe`
 
-- [dsh-amphoreus](https://github.com/xi-kari/dsh-amphoreus) — 把 δ-me13（翁法罗斯）13 张角色技能卡变成席位工作区：逐席主题与壁纸、首轮注入技能卡、对话表情、每席记忆与预设、Alt+数字切席、派发与移交总览画布；技能套件从本地目录读取，不随插件打包 · `dsh plugin add dsh-amphoreus`
-- [skills-management](https://github.com/weibaohui/skills-management) — 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理 · `dsh plugin add @weibaohui/skills-management`
+- [dsh-amphoreus](https://github.com/xi-kari/dsh-amphoreus) — 把 δ-me13（翁法罗斯）13 张角色技能卡变成席位工作区：逐席主题与壁纸、首轮注入技能卡、对话表情、每席记忆与预设、Alt+数字切席、派发与移交总览画布；技能套件从本地目录读取，不随插件打包 ⭐4 · `dsh plugin add dsh-amphoreus`
+- [skills-management](https://github.com/weibaohui/skills-management) — 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理 ⭐21 · `dsh plugin add @weibaohui/skills-management`
 
 <!-- nav:start -->
 ---
